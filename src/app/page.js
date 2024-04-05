@@ -6,6 +6,6 @@ export default function Home() {
         <p className="text-[18px] font-poppins font-extralight mx-[310px] pt-8 text-[#161C2D] opacity-90">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within a few minutes.</p>
       </div>
     </div>
-
+    
   );
 }

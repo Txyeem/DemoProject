@@ -2,8 +2,8 @@ import React from 'react';
 
 function Navbar() {
   return (
-    <nav className="bg-white p-4 flex justify-between items-center mx-[245px]">
-    <div className="text-black text-2xl font-bold">Brainwave.io</div>
+    <nav className="bg-white p-4 flex justify-between items-center lg:mx-[250px] md:mx-[225px] sm:mx-[225px] mx-[225px]">
+    <div className="text-black lg:text-[24px] md:text-3xl text-[24px] font-bold">Brainwave.io</div>
     <div className="flex">
       <button className="text-black text-[15px] font-gilroy font-semibold mx-5">Demos</button>
       <button className="text-black text-[15px] font-gilroy font-semibold mx-5">Page</button>
