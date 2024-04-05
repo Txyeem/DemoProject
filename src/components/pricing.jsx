@@ -92,11 +92,11 @@ function Pricing() {
                 </div>
                 <div className="flex items-center py-3">
                     <span className="checkmark"></span>
-                    <span className="mr-2 pl-1 text-[17px] font-poppins font-extralight text-[#161C2D] ">6 Month Premium Support</span>
+                    <span className="mr-2 pl-3 text-[17px] font-poppins font-extralight text-[#161C2D] ">6 Month Premium Support</span>
                 </div>
                 <div className="flex items-center py-3">
                     <span className="cross"></span>
-                    <span className="mr-2 pl-1 text-[17px] font-poppins font-extralight text-[#161C2D] opacity-[70%]">Lifetime Updates</span>
+                    <span className="mr-2 pl-3 text-[17px] font-poppins font-extralight text-[#161C2D] opacity-[70%]">Lifetime Updates</span>
                 </div>
             </div>
 
@@ -140,11 +140,11 @@ function Pricing() {
                 </div>
                 <div className="flex items-center py-3">
                     <span className="checkmark"></span>
-                    <span className="mr-2 pl-1 text-[17px] font-poppins font-extralight text-[#161C2D] ">6 Month Premium Support</span>
+                    <span className="mr-2 pl-3 text-[17px] font-poppins font-extralight text-[#161C2D] ">6 Month Premium Support</span>
                 </div>
                 <div className="flex items-center py-3">
                     <span className="checkmark"></span>
-                    <span className="mr-2 pl-1 text-[17px] font-poppins font-extralight text-[#161C2D] ">Lifetime Updates</span>
+                    <span className="mr-2 pl-3 text-[17px] font-poppins font-extralight text-[#161C2D] ">Lifetime Updates</span>
                 </div>
             </div>
 
