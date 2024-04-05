@@ -43,3 +43,51 @@
     font-weight: normal;
     src: local('Gilroy-Regular ☞'), url('/fonts/Gilroy-Regular.woff') format('woff');
     }
+
+
+    .checkmark {
+        display: inline-block;
+        width: 10px;
+        height: 20px;
+        border: solid #68D585;
+        border-width: 0 3px 3px 0;
+        transform: rotate(45deg);
+        margin-right: 5px;
+    }
+    
+    .cross {
+        display: inline-block;
+        position: relative;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        margin-left: ;
+        vertical-align: middle; 
+    }
+    
+    .cross::before,
+    .cross::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        background-color: #D5D7DD;
+        top: 45%; 
+        left: 10; 
+        transform-origin: center center;
+    }
+    
+    .cross::before {
+        transform: rotate(45deg);
+    }
+    
+    .cross::after {
+        transform: rotate(-45deg);
+    }
+    
+
+    .arrow-svg {
+        display: inline-block;
+        vertical-align: middle; 
+        margin-left: 5px; 
+    }
